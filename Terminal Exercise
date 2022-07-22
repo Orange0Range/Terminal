@@ -1,0 +1,37 @@
+
+Part I
+
+    mkdir first					make a directory called first
+    cd first					change directory to the first folder
+    touch person.txt			create a file called person.txt
+    mv person.txt another.txt 	change the name of person.txt to another.txt
+    cp another.txt copy.txt		make a copy of the another.txt file and call it copy.txt
+    rm copy.txt					remove the copy.txt file
+    cp -r first second			make a copy of the first folder and call it second
+    rm -rf second				delete the second folder
+
+Part II
+
+    What does the man command do? Type in man rm. How do you scroll and get out?
+	-Explains what a function does. 'Enter' to scroll; 'q' to get out.
+    Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+	-long list format. -a: shows folders including those starting with '.'. 
+    How do you jump between words in the terminal?
+	-Ctrl+left/right
+    How do you get to the end of a line in terminal?
+	-Ctrl+e
+    How do you move your cursor to the beginning in terminal?
+	-Ctrl+a
+    How do you delete a word (without pressing backspace multiple times) in terminal?
+	-Ctrl+w
+    What is the difference between a terminal and shell?
+	-Shell process command and returns output; terminal is an abstraction layer wrapping a shell. 
+    What is an absolute path?
+	-Path that gives an exact location regardless of current directory
+    What is an relative path?
+	-Path that is influenced by the current directory. 
+    What is a flag? Give three examples of flags you have used.
+	-Flag modifies commands. ls -l/-a and rm -rf
+    What do the r and f flags do with the rm command?
+	-r: Remove directories and their content. -f: no prompts, igonore nonexistent flies and arguements. 
+	
